@@ -36,6 +36,7 @@ public class KnapSack {
 	            else
 	            {
 	                if(cur_len > max_len)
+				
 	                    max_len = cur_len;
 	                 
 	                cur_len = i - prev_index;
